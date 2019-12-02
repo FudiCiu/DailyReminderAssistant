@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_jadwal_harian"
+            android:title="@string/jadwal_harian">
+            <menu>
+                <group android:checkableBehavior="single" android:id="@+id/grharian">
+                    <item
+                        android:id="@+id/nav_senin"
+                        android:icon="@drawable/ic_monday"
+                        android:title="@string/senin" />
+                    <item
+                        android:id="@+id/nav_selasa"
+                        android:icon="@drawable/ic_tuesday"
+                        android:title="@string/selasa" />
+                    <item
+                        android:id="@+id/nav_rabu"
+                        android:icon="@drawable/ic_wednesday"
+                        android:title="@string/rabu" />
+                    <item
+                        android:id="@+id/nav_kamis"
+                        android:icon="@drawable/ic_thursday"
+                        android:title="@string/kamis" />
+                    <item
+                        android:id="@+id/nav_jumat"
+                        android:icon="@drawable/ic_friday"
+                        android:title="@string/jumat" />
+                    <item
+                        android:id="@+id/nav_sabtu"
+                        android:icon="@drawable/ic_saturday"
+                        android:title="@string/sabtu" />
+                    <item
+                        android:id="@+id/nav_minggu"
+                        android:icon="@drawable/ic_sunday"
+                        android:title="@string/minggu" />
+                </group>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kegiatan_penting"
+            android:title="@string/kegiatan_penting">
+        <menu>
+        <item
+            android:id="@+id/nav_kegiatan_penting"
+            android:icon="@drawable/ic_event_note_black_32dp"
+            android:title="@string/kegiatan_penting" />
+        </menu>
+        </item>
+    </group>
+
+
+</menu>

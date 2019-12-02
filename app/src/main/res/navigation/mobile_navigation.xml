@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_senin">
+    <fragment
+        android:id="@+id/nav_senin"
+        android:name="com.latihanandroid.dailyreminderassistant.ui.senin.SeninFragment"
+        android:label="@string/senin"
+        tools:layout="@layout/fragment_senin" />
+    <fragment
+        android:id="@+id/nav_selasa"
+        android:name="com.latihanandroid.dailyreminderassistant.ui.selasa.SelasaFragment"
+        android:label="@string/selasa"
+        tools:layout="@layout/fragment_selasa" />
+    <fragment
+        android:id="@+id/nav_rabu"
+        android:name="com.latihanandroid.dailyreminderassistant.ui.rabu.RabuFragment"
+        android:label="@string/rabu"
+        tools:layout="@layout/fragment_rabu" />
+    <fragment
+        android:id="@+id/nav_kamis"
+        android:name="com.latihanandroid.dailyreminderassistant.ui.kamis.KamisFragment"
+        android:label="@string/kamis"
+        tools:layout="@layout/fragment_kamis" />
+    <fragment
+        android:id="@+id/nav_jumat"
+        android:name="com.latihanandroid.dailyreminderassistant.ui.jumat.JumatFragment"
+        android:label="@string/jumat"
+        tools:layout="@layout/fragment_jumat" >
+    </fragment>
+    <fragment
+        android:id="@+id/nav_sabtu"
+        android:name="com.latihanandroid.dailyreminderassistant.ui.sabtu.SabtuFragment"
+        android:label="@string/sabtu"
+        tools:layout="@layout/fragment_sabtu" />
+    <fragment
+        android:id="@+id/nav_minggu"
+        android:name="com.latihanandroid.dailyreminderassistant.ui.minggu.MingguFragment"
+        android:label="@string/minggu"
+        tools:layout="@layout/fragment_minggu" />
+    <fragment
+        android:id="@+id/nav_kegiatan_penting"
+        android:name="com.latihanandroid.dailyreminderassistant.ui.kegiatan_penting.KegiatanPentingFragment"
+        android:label="@string/kegiatan_penting"
+        tools:layout="@layout/fragment_kegiatan_penting" />
+
+</navigation>
